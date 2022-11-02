@@ -6,7 +6,7 @@ scores = []
 # 케이스 지정 개수 만큼 반복문, 리스트에 성적 입력
 for i in range(n):
     # a = input()
-    a = map(int,input().split())
+    a = map(int, input().split())
     scores.append(a)
 
 # 전역변수 선언
