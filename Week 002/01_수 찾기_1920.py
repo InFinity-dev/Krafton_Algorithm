@@ -5,7 +5,7 @@
 # B[M]의 각 요소가 A안에 있는지 탐색하여 1/0으로 출력
 import sys
 from typing import Any, Sequence
-import copy
+# import copy
 
 # alias 지정
 input = sys.stdin.readline
@@ -30,7 +30,7 @@ input = sys.stdin.readline
 
 # Binary Search 함수
 def bin_search(a: Sequence, key: Any) -> int:
-    a.sort()  # 이진 탐색은 정렬된 배열을 탐색할때 가장 빠르다. 받아온 배열을 정렬.
+
     pl = 0  # p left 는 인덱스 0 에서 부터 시작
     pr = len(a) - 1  # p right 는 가장 마지막 인덱스 에서 시작
 
@@ -60,5 +60,6 @@ B = [int(j) for j in input().split()]
 #     print(seq_search(A, B, b))
 
 # 이진 탐색
+A.sort()  # 이진 탐색은 정렬된 배열을 탐색할때 가장 빠르다. 받아온 배열을 정렬.
 for b in B:
     print(bin_search(A, b))

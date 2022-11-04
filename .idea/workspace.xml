@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9e181571-2288-4dcd-b5b7-3c368b515840" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 002/01_수 찾기_1920.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 002/01_수 찾기_1920.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
       <workItem from="1667437331758" duration="5735000" />
       <workItem from="1667443683025" duration="649000" />
       <workItem from="1667450451669" duration="8024000" />
-      <workItem from="1667533708243" duration="13554000" />
+      <workItem from="1667533708243" duration="13939000" />
     </task>
     <task id="LOCAL-00001" summary="Test Refactoring">
       <created>1667460392205</created>
@@ -82,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667552805352</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Searching study">
+      <created>1667555452530</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667555452530</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
