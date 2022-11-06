@@ -23,6 +23,8 @@ pl = 0
 pr = len(arr) - 1
 product = arr[pl] + arr[pr]  # 첫번째 용액과 마지막 용액을 합친 값을 product 의 최초값으로 둔다
 product_min = math.inf
+right = left = 0
+
 while pl < pr:
     # print(f'{pl}--> <--{pr}')
     product = arr[pl] + arr[pr]
