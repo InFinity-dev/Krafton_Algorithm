@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e181571-2288-4dcd-b5b7-3c368b515840" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/Test/Week 02/Lee_Min_Sub/01_쿼드트리_1992.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Week 02/Lee_Min_Sub/02_문자열 폭발_9935.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Week 02/Lee_Min_Sub/03_소수의 곱_2014.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 002/18_괄호의 값_2504.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 002/18_괄호의 값_2504.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +70,7 @@
       <workItem from="1667621664899" duration="813000" />
       <workItem from="1667623569076" duration="43624000" />
       <workItem from="1667960179586" duration="3970000" />
-      <workItem from="1667972069472" duration="20749000" />
+      <workItem from="1667972069472" duration="27460000" />
     </task>
     <task id="LOCAL-00001" summary="Test Refactoring">
       <created>1667460392205</created>
@@ -189,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668040862304</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="스택 보충">
+      <created>1668041619380</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1668041619380</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +228,8 @@
     <MESSAGE value="11_가장 가까운 두 점_2261" />
     <MESSAGE value="16_탑_2494" />
     <MESSAGE value="우선순위 큐" />
-    <option name="LAST_COMMIT_MESSAGE" value="우선순위 큐" />
+    <MESSAGE value="스택 보충" />
+    <option name="LAST_COMMIT_MESSAGE" value="스택 보충" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$08__1629.coverage" NAME="08_곱셈_1629 커버리지 결과" MODIFIED="1667933195530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 002" />
@@ -229,18 +239,22 @@
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$13__10773.coverage" NAME="13_제로_10773 커버리지 결과" MODIFIED="1668004266226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 002" />
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$24___11279.coverage" NAME="24_최대 힙_11279 커버리지 결과" MODIFIED="1668040349495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 002" />
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$04___2470.coverage" NAME="04_두 용액_2470 커버리지 결과" MODIFIED="1667743055864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 002" />
+    <SUITE FILE_PATH="coverage/Krafton_Algorithm$02___9935.coverage" NAME="02_문자열 폭발_9935 커버리지 결과" MODIFIED="1668046540234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Week 02/Lee_Min_Sub" />
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$___1110.coverage" NAME="더하기 사이클 _1110 커버리지 결과" MODIFIED="1667443802812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Week 001" />
+    <SUITE FILE_PATH="coverage/Krafton_Algorithm$03___2014.coverage" NAME="03_소수의 곱_2014 커버리지 결과" MODIFIED="1668047610790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Week 02/Lee_Min_Sub" />
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$18___2504.coverage" NAME="18_괄호의 값_2504 커버리지 결과" MODIFIED="1668041244419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 002" />
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$22___0_11866.coverage" NAME="22_요세푸스 문제 0_11866 커버리지 결과" MODIFIED="1668039507450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 002" />
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$code_run.coverage" NAME="code_run 커버리지 결과" MODIFIED="1667626280382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$26___1715.coverage" NAME="26_카드 정렬하기_1715 커버리지 결과" MODIFIED="1668040785967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 002" />
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$07___2630.coverage" NAME="07_색종이 만들기_2630 커버리지 결과" MODIFIED="1667912487845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 002" />
+    <SUITE FILE_PATH="coverage/Krafton_Algorithm$01__1992.coverage" NAME="01_쿼드트리_1992 커버리지 결과" MODIFIED="1668045693476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Week 02/Lee_Min_Sub" />
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$02___2805.coverage" NAME="02_나무 자르기_2805 커버리지 결과" MODIFIED="1667632759221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 002" />
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$10___10830.coverage" NAME="10_행렬 제곱_10830 커버리지 결과" MODIFIED="1667970545078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 002" />
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$_Binary_Search.coverage" NAME="이진탐쌕_Binary Search 커버리지 결과" MODIFIED="1667551184470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 002" />
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$__1182.coverage" NAME="부분수열의 합_1182 커버리지 결과" MODIFIED="1667460618442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Week 001/Lee_Min_Sub" />
     <SUITE FILE_PATH="coverage/KraftonJungle_Algorithm$1_Hello_World_2557.coverage" NAME="1_Hello World_2557 커버리지 결과" MODIFIED="1666943161589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 1" />
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$03___2110.coverage" NAME="03_공유기 설치_2110 커버리지 결과" MODIFIED="1667655407137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 002" />
+    <SUITE FILE_PATH="coverage/Krafton_Algorithm$19___2812.coverage" NAME="19_크게 만들기_2812 커버리지 결과" MODIFIED="1668041573739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 002" />
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$1110.coverage" NAME="1110 커버리지 결과" MODIFIED="1667443333497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Week 001/Code Review" />
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$9005.coverage" NAME="9005 커버리지 결과" MODIFIED="1667443391192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Week 001/Code Review" />
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$_Sentinel_Method.coverage" NAME="보초법_Sentinel Method 커버리지 결과" MODIFIED="1667542804470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 002" />
