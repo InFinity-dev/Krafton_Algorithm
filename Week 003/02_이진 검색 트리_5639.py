@@ -1,6 +1,8 @@
 # 이진 검색 트리의 전위 순회 결과를 후위 순회 결과로 출력
 import sys
 
+sys.setrecursionlimit(10 ** 6)
+
 # alias 지정
 input = sys.stdin.readline
 
