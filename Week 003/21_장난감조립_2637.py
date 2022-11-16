@@ -16,12 +16,14 @@ for _ in range(int(input())):  # M 입력
     graph[y].append((x, k))  # y는 x에게 필요, k개 만큼
     inDegree[x] += 1
 
+
 for i in range(1, n + 1):
     if inDegree[i] == 0:  # 진입 차수가 0이면
         q.append(i)
 
 while q:  # q가 비어있지 않는 동안
     cursor = q.popleft()
+    # print(f'cursor = {cursor}')
     for target_product, target_require in graph[cursor]:
         if requires[cursor].count(0) == n + 1:
             requires[target_product][cursor] += target_require
@@ -35,7 +37,6 @@ while q:  # q가 비어있지 않는 동안
             q.append(target_product)
 
 # print(f'requires[n] = {requires[n]}')
-
 for p in range(len(requires[n])):
     if requires[n][p] > 0:
         num = requires[n][p]
