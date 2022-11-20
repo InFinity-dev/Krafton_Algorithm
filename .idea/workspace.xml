@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e181571-2288-4dcd-b5b7-3c368b515840" name="변경" comment="최소비용 구하기_1916" />
+    <list default="true" id="9e181571-2288-4dcd-b5b7-3c368b515840" name="변경" comment="최소비용 구하기_1916">
+      <change afterPath="$PROJECT_DIR$/Week 004/01_피보나치 수 2_ 2748.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 004/02_01타일_1904.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 004/03_동전_9084.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 004/04_LCS_9251.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 004/05_아주 평범한 배낭_12865.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 004/06_행렬 곱셈 순서_11049.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 004/07_가장 긴 증가하는 부분 수열_11053.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 004/08_외판원 순회_2098.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 004/09_점프_2253.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 004/10_동전 0_11047.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 004/11_잃어버린 괄호_1541.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 004/12_회의실 배정_1931.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 004/13_신입사원_1946.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 004/14_멀티탭 스켸줄링_1700.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 004/15_최장 공통 부분 문자열_9249.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +104,7 @@
       <workItem from="1668794753975" duration="403000" />
       <workItem from="1668795748728" duration="78000" />
       <workItem from="1668806136155" duration="695000" />
-      <workItem from="1668967801957" duration="5108000" />
+      <workItem from="1668967801957" duration="6032000" />
     </task>
     <task id="LOCAL-00001" summary="Test Refactoring">
       <created>1667460392205</created>
@@ -320,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668976247336</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="최소비용 구하기_1916">
+      <created>1668976362398</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1668976362398</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
