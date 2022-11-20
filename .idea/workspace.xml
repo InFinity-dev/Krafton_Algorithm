@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e181571-2288-4dcd-b5b7-3c368b515840" name="변경" comment="">
+    <list default="true" id="9e181571-2288-4dcd-b5b7-3c368b515840" name="변경" comment="12_구슬 찾기_2617">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 003/12_구슬 찾기_2617.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 003/12_구슬 찾기_2617.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 003/21_장난감조립_2637.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 003/21_장난감조립_2637.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/code_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/code_run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 003/15_최소비용 구하기_1916.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 003/15_최소비용 구하기_1916.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,18 +44,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/infinity/PycharmProjects/Krafton_Algorithm/Week 002&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/infinity/PycharmProjects/Krafton_Algorithm/Week 002",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Week 002" />
@@ -86,7 +86,12 @@
       <workItem from="1668329193635" duration="1999000" />
       <workItem from="1668380569896" duration="28348000" />
       <workItem from="1668582460892" duration="792000" />
-      <workItem from="1668583576557" duration="15014000" />
+      <workItem from="1668583576557" duration="20166000" />
+      <workItem from="1668654505623" duration="451000" />
+      <workItem from="1668794753975" duration="403000" />
+      <workItem from="1668795748728" duration="78000" />
+      <workItem from="1668806136155" duration="695000" />
+      <workItem from="1668967801957" duration="4808000" />
     </task>
     <task id="LOCAL-00001" summary="Test Refactoring">
       <created>1667460392205</created>
@@ -305,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668602374340</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="12_구슬 찾기_2617">
+      <created>1668618085573</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1668618085573</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +358,8 @@
     <MESSAGE value="20_줄 세우기_2252" />
     <MESSAGE value="인접 리스트 구현" />
     <MESSAGE value="21_장난감조립_2637" />
-    <option name="LAST_COMMIT_MESSAGE" value="21_장난감조립_2637" />
+    <MESSAGE value="12_구슬 찾기_2617" />
+    <option name="LAST_COMMIT_MESSAGE" value="12_구슬 찾기_2617" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$04_DFS__BFS_1260.coverage" NAME="04_DFS와  BFS_1260 커버리지 결과" MODIFIED="1668537615571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 003" />
@@ -361,6 +374,7 @@
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$20___2252.coverage" NAME="20_줄 세우기_2252 커버리지 결과" MODIFIED="1668585543836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 003" />
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$06__2606.coverage" NAME="06_바이러스_2606 커버리지 결과" MODIFIED="1668529089484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 003" />
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$04___2470.coverage" NAME="04_두 용액_2470 커버리지 결과" MODIFIED="1667743055864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 002" />
+    <SUITE FILE_PATH="coverage/Krafton_Algorithm$15___1916.coverage" NAME="15_최소비용 구하기_1916 커버리지 결과" MODIFIED="1668975443252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 003" />
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$02___9935.coverage" NAME="02_문자열 폭발_9935 커버리지 결과" MODIFIED="1668046540234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Week 02/Lee_Min_Sub" />
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$___1110.coverage" NAME="더하기 사이클 _1110 커버리지 결과" MODIFIED="1667443802812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Week 001" />
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$03___2014.coverage" NAME="03_소수의 곱_2014 커버리지 결과" MODIFIED="1668047610790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Week 02/Lee_Min_Sub" />
