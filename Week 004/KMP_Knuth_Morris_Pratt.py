@@ -19,7 +19,7 @@ def kmpsearch(pattern, txt):
                 i += 1
 
         if j == m:
-            print(f'{i - j +1 } 번째 글자에서 패턴을 찾았습니다.')
+            print(f'{i - j +1 } 번째 글자에서 일치하는 패턴을 찾았습니다.')
             print(f'>>>> {txt[i-j:]}')
             j = lps[j - 1]
 
