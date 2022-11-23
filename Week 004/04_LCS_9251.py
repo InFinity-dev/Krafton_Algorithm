@@ -14,7 +14,6 @@ for i in range(1, h + 1):
         else:
             cache[i][j] = max(cache[i][j - 1], cache[i - 1][j])
 print(cache[-1][-1])
-print(cache)
 
 # 풀이 2 : 1차원 배열과 cnt 변수 활용
 word1, word2 = input().strip(), input().strip()
