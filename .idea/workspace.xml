@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e181571-2288-4dcd-b5b7-3c368b515840" name="변경" comment="평범한 배낭">
+    <list default="true" id="9e181571-2288-4dcd-b5b7-3c368b515840" name="변경" comment="07_가장 긴 증가하는 부분 수열_11053 (DP method)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 004/07_가장 긴 증가하는 부분 수열_11053.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 004/07_가장 긴 증가하는 부분 수열_11053.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 004/10_동전 0_11047.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 004/10_동전 0_11047.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,7 @@
       <workItem from="1669097529779" duration="8627000" />
       <workItem from="1669119903724" duration="1225000" />
       <workItem from="1669169519278" duration="2244000" />
-      <workItem from="1669202864520" duration="7087000" />
+      <workItem from="1669202864520" duration="12319000" />
     </task>
     <task id="LOCAL-00001" summary="Test Refactoring">
       <created>1667460392205</created>
@@ -395,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669217672573</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="07_가장 긴 증가하는 부분 수열_11053 (DP method)">
+      <created>1669221309286</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1669221309286</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +421,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="04_두 용액_2470" />
     <MESSAGE value="05_가장 긴 증가하는 부분 수열_11053 &amp; LIS study" />
     <MESSAGE value="07_색종이 만들기_2630" />
     <MESSAGE value="10_행렬 제곱_10830" />
@@ -439,7 +445,19 @@
     <MESSAGE value="KMP 알고리즘" />
     <MESSAGE value="LCS" />
     <MESSAGE value="평범한 배낭" />
-    <option name="LAST_COMMIT_MESSAGE" value="평범한 배낭" />
+    <MESSAGE value="07_가장 긴 증가하는 부분 수열_11053 (DP method)" />
+    <option name="LAST_COMMIT_MESSAGE" value="07_가장 긴 증가하는 부분 수열_11053 (DP method)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$04_DFS__BFS_1260.coverage" NAME="04_DFS와  BFS_1260 커버리지 결과" MODIFIED="1668537615571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 003" />
@@ -447,6 +465,7 @@
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$08__1629.coverage" NAME="08_곱셈_1629 커버리지 결과" MODIFIED="1667933195530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 002" />
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$01___1920.coverage" NAME="01_수 찾기_1920 커버리지 결과" MODIFIED="1667553226845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 002" />
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$05___12865.coverage" NAME="05_평범한 배낭_12865 커버리지 결과" MODIFIED="1669217746262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 004" />
+    <SUITE FILE_PATH="coverage/Krafton_Algorithm$10__0_11047.coverage" NAME="10_동전 0_11047 커버리지 결과" MODIFIED="1669226608634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 004" />
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$11_____2261.coverage" NAME="11_가장 가까운 두 점_2261 커버리지 결과" MODIFIED="1667987973236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 002" />
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$21__2637.coverage" NAME="21_장난감조립_2637 커버리지 결과" MODIFIED="1668617381927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 003" />
     <SUITE FILE_PATH="coverage/Krafton_Algorithm$04_LCS_9251.coverage" NAME="04_LCS_9251 커버리지 결과" MODIFIED="1669203375122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week 004" />
