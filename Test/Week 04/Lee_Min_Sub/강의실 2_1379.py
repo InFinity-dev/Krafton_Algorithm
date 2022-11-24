@@ -5,7 +5,7 @@ input = sys.stdin.readline
 q = []
 n = int(input())  # 강의 개수
 lecture = []
-lecture_room = [0] * (n+1)
+lecture_room = [0] * (n + 1)
 
 for l in range(n):
     lecture.append((list(map(int, input().split()))))
@@ -32,5 +32,5 @@ for lecture_num, start_time, end_time in lecture:
         count += 1
         heapq.heappop(q)
 
-print(count - 1) # 필요한 강의실 개수
+print(count - 1)  # 필요한 강의실 개수
 print(*lecture_room[1:])
